@@ -1,0 +1,15 @@
+{
+  "background_color": "purple",
+  "description": "ทดสอบ",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    }
+  ],
+  "name": "Dream Test",
+  "short_name": "dream",
+  "start_url": "https://dreamcorei5.github.io/"
+}
