@@ -53,9 +53,9 @@
       }
 
       let deferredPrompt_;
-      window.addEventListener('beforeinstallprompt', (x) => {
+      window.addEventListener('beforeinstallprompt', (e) => {
         // Stash the event so it can be triggered later.
-        x.preventDefault();
+        e.preventDefault();
         deferredPrompt_ = x;
         // deferredPrompt_.prompt();
       });
