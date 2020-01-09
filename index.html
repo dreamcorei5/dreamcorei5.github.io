@@ -52,12 +52,12 @@
         });
       }
 
-      let xxxxx;
-
-window.addEventListener('beforeinstallprompt', (e) => {
-  // Stash the event so it can be triggered later.
-  deferredPrompt.prompt();
-});
+      let deferredPrompt_;
+      window.addEventListener('beforeinstallprompt', (e) => {
+        // Stash the event so it can be triggered later.
+        deferredPrompt_ = e;
+        deferredPrompt_.prompt();
+      });
 
 
       // let deferredPrompt;
