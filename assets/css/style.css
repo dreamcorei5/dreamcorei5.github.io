@@ -10,6 +10,23 @@
   background-image: url(../img/corpdevice.png);
 }
 
+.coseller {
+  background-image: url(../img/coseller.png);
+}
+
+.kasetworld {
+  background-image: url(../img/kasetworld.png);
+}
+
+.manage_language {
+  background-image: url(../img/manage_language.png);
+}
+
+
 .bpskill {
   background-image: url(../img/bpskill.png);
+}
+
+.plagiarism {
+  background-image: url(../img/plagiarism.png);
 }
