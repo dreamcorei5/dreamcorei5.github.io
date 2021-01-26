@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
     <title>portfolio</title>
   </head>
   <body>
@@ -40,14 +41,56 @@
       <section class="py-5 text-center container">
         <div class="row py-lg-2">
           <div class="col-lg-6 col-md-8 mx-auto">
-            <img src="assets/img/profile.jpg" class="img-fluid" style="width: 200px; height: 200px;">
+            <img src="assets/img/profile.jpg" class="img-fluid rounded" style="width: 200px; height: 200px;">
             <h1 class="fw-light">Khunathron Thongnopphakhun</h1>
             <p class="lead text-muted">ผมเป็นนักพัฒนาเว็บไซต์ ที่มีประสบการณ์การทำงานในบริษัทซอฟต์แวร์ มากกว่า 3 ปี เชี่ยวชาญในการวิเคราะห์ระบบและพัฒนาเว็บไซต์ตามที่ต้องการ</p>
             <p>portfolio</p>
           </div>
         </div>
       </section>
+      <div class="album py-5 bg-light">
+        <div class="container">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col">
+              <div class="card shadow-sm">
+                <img id="corpdevice" class="set-background corpdevice" width="100%" height="225"></img>
+                <div class="card-body">
+                  <p class="card-text">Device Management ระบบจัดการสต๊อกสินค้า สำหรับหน่วยงาน Enterprise & Business Customer</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+
+                    </div>
+                    <small class="text-muted"></small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img id="bpskill" class="set-background bpskill" width="" height="225"></img>
+                <div class="card-body">
+                  <p class="card-text">BPSkill บริหารค้นหางานใกล้เคียง</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+
+                    </div>
+                    <small class="text-muted"></small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
+    <!-- The Modal Image -->
+    <div id="myModal" class="modal" style="background-color: rgba(0,0,0,0.9);">
+      <div class="d-flex justify-content-end">
+        <span class="close" style="color: #f1f1f1; font-size: 34px; font-weight: bold; cursor: pointer;">&times;</span>
+      </div>
+      <img class="modal-content" style="margin-top: 1%; display: block; max-width: 100%;" id="img01">
+    </div>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/app.js"></script>
   </body>
 </html>

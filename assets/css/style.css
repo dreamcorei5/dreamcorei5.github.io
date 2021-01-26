@@ -1,0 +1,15 @@
+.set-background {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  cursor: pointer;
+}
+
+.corpdevice {
+  background-image: url(../img/corpdevice.png);
+}
+
+.bpskill {
+  background-image: url(../img/bpskill.png);
+}
