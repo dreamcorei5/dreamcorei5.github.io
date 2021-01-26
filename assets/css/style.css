@@ -22,9 +22,12 @@
   background-image: url(../img/manage_language.png);
 }
 
-
 .bpskill {
   background-image: url(../img/bpskill.png);
+}
+
+.manage_web {
+  background-image: url(../img/manage_web.png);
 }
 
 .plagiarism {
