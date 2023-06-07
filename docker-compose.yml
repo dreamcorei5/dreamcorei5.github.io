@@ -1,0 +1,42 @@
+version: "3.1"
+services:
+  www:
+    build: .
+    ports:
+      - "8071:80"
+    volumes:
+      - ./:/var/www/html/
+      - ./apache/demo.apache.conf:/etc/apache2/sites-enabled/demo.conf
+    # links:
+    #   - db
+    networks:
+      - default
+    image: php-7.2.34-custom
+  # db:
+  #   image: mysql:8.0
+  #   ports:
+  #     - "3308:3306"
+  #   command: --default-authentication-plugin=mysql_native_password
+  #   environment:
+  #     MYSQL_DATABASE: co_seller
+  #     MYSQL_USER: dream
+  #     MYSQL_PASSWORD: root
+  #     MYSQL_ROOT_PASSWORD: root
+  #   volumes:
+  #     - ./dump:/docker-entrypoint-initdb.d
+  #     - ./conf:/etc/mysql/conf.d
+  #     - persistent:/var/lib/mysql
+  #   networks:
+  #     - default
+  # phpmyadmin:
+  #   image: phpmyadmin/phpmyadmin
+  #   links:
+  #     - db:db
+  #   ports:
+  #     - 8000:80
+  #   environment:
+  #     MYSQL_USER: root
+  #     MYSQL_PASSWORD: root
+  #     MYSQL_ROOT_PASSWORD: root
+volumes:
+  persistent:
