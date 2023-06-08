@@ -1,6 +1,18 @@
 let modal = document.getElementById("myModal");
 let modalImg = document.getElementById("img01");
 
+let co_seller = document.getElementById("co-seller");
+co_seller.onclick = () => {
+  modal.style.display = "block";
+  modalImg.src = 'assets/img/co-seller.png';
+}
+
+let bot = document.getElementById("bot");
+bot.onclick = () => {
+  modal.style.display = "block";
+  modalImg.src = 'assets/img/BOT/3.\ BOT_Main.png';
+}
+
 let corpdevice = document.getElementById("corpdevice");
 corpdevice.onclick = () => {
   modal.style.display = "block";
