@@ -1,3 +1,207 @@
-<?
-  echo 'test';
-?>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <title>portfolio</title>
+  </head>
+  <body>
+    <header>
+      <div class="collapse bg-dark" id="navbarHeader">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 col-md-7 py-4">
+              <h4 class="text-white">About</h4>
+              <p class="text-white">ผมเป็นนักพัฒนาเว็บไซต์ ที่มีประสบการณ์การทำงานในบริษัทซอฟต์แวร์ มากกว่า 3 ปี เชี่ยวชาญในการวิเคราะห์ระบบและพัฒนาเว็บไซต์ตามที่ต้องการ</p>
+            </div>
+            <div class="col-sm-4 offset-md-1 py-4">
+              <h4 class="text-white">Contact</h4>
+              <ul class="list-unstyled">
+                <li><p class="text-white">Email : khunathorntongnopphakhun@gmail.com</p></li>
+                <li><p class="text-white">Phone : 088-592-2589</p></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="navbar navbar-dark bg-dark shadow-sm">
+        <div class="container">
+          <a href="#" class="navbar-brand d-flex align-items-center">
+            <strong>Khunathron Thongnopphakhun</strong>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="py-5 text-center container">
+        <div class="row py-lg-2">
+          <div class="col-lg-6 col-md-8 mx-auto">
+            <img src="assets/img/profile.jpg" class="img-fluid rounded" style="width: 200px; height: 200px;">
+            <h1 class="fw-light">Khunathron Thongnopphakhun</h1>
+            <p class="lead text-muted">ผมเป็นนักพัฒนาเว็บไซต์ ที่มีประสบการณ์การทำงานในบริษัทซอฟต์แวร์ มากกว่า 4 ปี เชี่ยวชาญในการวิเคราะห์ระบบและพัฒนาเว็บไซต์ตามที่ต้องการ</p>
+            <p>portfolio</p>
+          </div>
+        </div>
+      </section>
+      <div class="album py-5 bg-light">
+        <div class="container">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col">
+              <div class="card shadow-sm">
+                <img id="co-seller" class="set-background co-seller" width="100%" height="225"></img>
+                <div class="card-body">
+                  <p class="card-text">co-seller ให้บริการตัวแทนขาย Supplier & Agent</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+
+                    </div>
+                    <small class="text-muted"></small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img id="bot" class="set-background bot" width="100%" height="225"></img>
+                <div class="card-body">
+                  <p class="card-text">BOT ระบบจัดการแผนความคุ้มครองใหม่ ผู้รับผลประโยชน์ ของพนักงานธนาคาร</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+
+                    </div>
+                    <small class="text-muted"></small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img id="corpdevice" class="set-background corpdevice" width="100%" height="225"></img>
+                <div class="card-body">
+                  <p class="card-text">Device Management ระบบจัดการสต๊อกสินค้า สำหรับหน่วยงาน Enterprise & Business Customer</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+
+                    </div>
+                    <small class="text-muted"></small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img id="coseller" class="set-background coseller" width="" height="225"></img>
+                <div class="card-body">
+                  <p class="card-text">seller บริการจำหน่ายสินค้า</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+
+                    </div>
+                    <small class="text-muted"></small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img id="kasetworld" class="set-background kasetworld" width="" height="225"></img>
+                <div class="card-body">
+                  <p class="card-text">Kasetworld ตลาดกลางทางการเษตร ร้านค้า ลานรับซื้อ รถรับจ้าง ประกาศรับคนงาน จ้างงาน</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+
+                    </div>
+                    <small class="text-muted"></small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img id="manage_language" class="set-background manage_language" width="" height="225"></img>
+                <div class="card-body">
+                  <p class="card-text">Manage Language เว็บช่วยจัดการภาษาต่างๆ</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+
+                    </div>
+                    <small class="text-muted"></small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img id="bpskill" class="set-background bpskill" width="" height="225"></img>
+                <div class="card-body">
+                  <p class="card-text">BPSkill บริหารค้นหางานใกล้เคียง</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+
+                    </div>
+                    <small class="text-muted"></small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img id="manage_web" class="set-background manage_web" width="" height="225"></img>
+                <div class="card-body">
+                  <p class="card-text">Manage Web เครื่องมือสำหรับเปลี่ยน content เว็บตาม Theme ที่เลือก</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+
+                    </div>
+                    <small class="text-muted"></small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img id="plagiarism" class="set-background plagiarism" width="" height="225"></img>
+                <div class="card-body">
+                  <p class="card-text">Plagiarism Checking การตรวจสอบความคล้ายคลึงของเอกสาร</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+
+                    </div>
+                    <small class="text-muted">วารสารวิชาการ การจัดการเทคโนโลยีสารสนเทศและนวัตกรรม
+                      Documentation Similarity System
+                      <a href="http://it.rmu.ac.th/itm-journal/assets/uploads/formidable/6/15-120-125.pdf" target=”_blank”>See more</a>
+                    </small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="text-muted py-5">
+      <div class="container">
+        <p class="float-end mb-1">
+          <a href="#">Back to top</a>
+        </p>
+        <p class="mb-1">Khunathorn Thongnopphakhun</p>
+        <p class="mb-0">Gmail : khunathorntongnopphakhun@gmail.com</p>
+        <p class="mb-0">Phone : 0885922589</p>
+      </div>
+    </footer>
+    <!-- The Modal Image -->
+    <div id="myModal" class="modal" style="background-color: rgba(0,0,0,0.9);">
+      <div class="d-flex justify-content-end">
+        <span class="close" style="color: #f1f1f1; font-size: 34px; font-weight: bold; cursor: pointer;">&times;</span>
+      </div>
+      <img class="modal-content" style="margin-top: 1%; display: block; max-width: 100%;" id="img01">
+    </div>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
