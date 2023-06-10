@@ -1,0 +1,39 @@
+# runtime: php72 # Old
+runtime: php72 # Replace with php73 to use the PHP 7.3 runtime
+
+# service : sit
+
+handlers:
+# Serve a directory as a static resource.
+- url: /assets
+  static_dir: assets
+
+
+# Serve images as static resources.
+- url: /(.+\.(gif|png|jpg))$
+  static_files: \1
+  upload: .+\.(gif|png|jpg)$
+
+# Serve your app through a front controller at index.php or public/index.php.
+- url: .*
+  script: auto
+
+# 
+# env development #
+# 
+# env_variables:
+#   MYSQL_DSN: mysql:unix_socket=/cloudsql/co-seller-sit-339700:asia-southeast1:co-seller
+#   MYSQL_HOST: 34.126.92.91
+#   MYSQL_USER: root
+#   MYSQL_PASSWORD: H3DB5K7hBHhoieqm
+#   MYSQL_NAME: co_seller_sit
+
+# 
+# env production #
+# 
+# env_variables:
+#   MYSQL_DSN: mysql:unix_socket=/cloudsql/co-seller-production:asia-southeast1:co-seller
+#   MYSQL_HOST: 34.124.151.161
+#   MYSQL_USER: root
+#   MYSQL_PASSWORD: xCjclKeoBlAnm8rO
+#   MYSQL_NAME: co_seller
