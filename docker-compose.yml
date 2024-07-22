@@ -11,7 +11,7 @@ services:
     #   - db
     networks:
       - default
-    image: php-7.2.34-custom
+    # image: php-7.2.34-custom
   # db:
   #   image: mysql:8.0
   #   ports:

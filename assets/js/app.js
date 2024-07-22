@@ -1,3 +1,5 @@
+let fullName = 'khunathorn thongnopphakhun'
+
 let modal = document.getElementById("myModal");
 let modalImg = document.getElementById("img01");
 
