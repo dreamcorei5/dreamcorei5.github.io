@@ -1,9 +1,13 @@
 .set-background {
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   cursor: pointer;
+}
+
+.wpr {
+  background-image: url(../img/wpr.png);
 }
 
 .xfas {
