@@ -6,6 +6,10 @@
   cursor: pointer;
 }
 
+.cdp {
+  background-image: url(../img/cdp.png);
+}
+
 .wpr {
   background-image: url(../img/wpr.png);
 }

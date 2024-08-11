@@ -3,6 +3,12 @@ let fullName = 'khunathorn thongnopphakhun'
 let modal = document.getElementById("myModal");
 let modalImg = document.getElementById("img01");
 
+let cdp = document.getElementById("cdp");
+cdp.onclick = () => {
+  modal.style.display = "block";
+  modalImg.src = 'assets/img/cdp.png';
+}
+
 let wpr = document.getElementById("wpr");
 wpr.onclick = () => {
   modal.style.display = "block";
