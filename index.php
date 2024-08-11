@@ -53,6 +53,34 @@
           <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
             <div class="col">
               <div class="card shadow-sm">
+                <img id="e_office" class="set-background e_office" width="100%" height="225"></img>
+                <div class="card-body">
+                  <p class="card-text">e-office สำนักงานเศรษฐกิจการเกษตร ระบบบริหารเอกสารอิเล็กทรอนิกส์ และสารบรรณอิเล็กทรอนิกส์</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+
+                    </div>
+                    <small class="text-muted"></small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img id="pttor" class="set-background pttor" width="100%" height="225"></img>
+                <div class="card-body">
+                  <p class="card-text">PTTOR ระบบจัดการหลังบ้านทั่วทุกสาขาของ Amazon Cafe </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+
+                    </div>
+                    <small class="text-muted"></small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
                 <img id="co-seller" class="set-background co-seller" width="100%" height="225"></img>
                 <div class="card-body">
                   <p class="card-text">co-seller ให้บริการตัวแทนขาย Supplier & Agent</p>

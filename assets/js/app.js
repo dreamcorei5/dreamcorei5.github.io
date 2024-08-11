@@ -3,6 +3,18 @@ let fullName = 'khunathorn thongnopphakhun'
 let modal = document.getElementById("myModal");
 let modalImg = document.getElementById("img01");
 
+let e_office = document.getElementById("e_office");
+e_office.onclick = () => {
+  modal.style.display = "block";
+  modalImg.src = 'assets/img/e_office.png';
+}
+
+let pttor = document.getElementById("pttor");
+pttor.onclick = () => {
+  modal.style.display = "block";
+  modalImg.src = 'assets/img/pttor.png';
+}
+
 let co_seller = document.getElementById("co-seller");
 co_seller.onclick = () => {
   modal.style.display = "block";
