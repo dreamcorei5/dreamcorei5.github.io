@@ -53,6 +53,20 @@
           <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
             <div class="col">
               <div class="card shadow-sm">
+                <img id="xfas" class="set-background xfas" width="100%" height="225"></img>
+                <div class="card-body">
+                  <p class="card-text">XFas ระบบให้บริการเช่า drone และระบบจัดการหลังบ้าน</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+
+                    </div>
+                    <small class="text-muted"></small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
                 <img id="e_office" class="set-background e_office" width="100%" height="225"></img>
                 <div class="card-body">
                   <p class="card-text">e-office สำนักงานเศรษฐกิจการเกษตร ระบบบริหารเอกสารอิเล็กทรอนิกส์ และสารบรรณอิเล็กทรอนิกส์</p>
