@@ -6,6 +6,10 @@
   cursor: pointer;
 }
 
+.supo {
+  background-image: url(../img/supo.png);
+}
+
 .cdp {
   background-image: url(../img/cdp.png);
 }
