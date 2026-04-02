@@ -6,6 +6,10 @@
   cursor: pointer;
 }
 
+.espc {
+  background-image: url(../img/espc.png);
+}
+
 .supo {
   background-image: url(../img/supo.png);
 }
